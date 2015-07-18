@@ -1,0 +1,26 @@
+{
+	"name": "mylms-tools/term",
+	"description": "Term is an open-source object-oriented PHP library that performs calendar calculations on academic terms for educational institutions.",
+	"keywords": [
+		"University","School","Calendar","Academic Term","Term","PHP"
+	],
+	"homepage": "https://github.com/damoclark/term",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Damien Clark",
+			"email": "damo.clarky@gmail.com",
+			"homepage": "http://damos.world",
+			"role": "Creator, Developer"
+		},
+		{
+			"name": "Colin Beer",
+			"email": "colinwbeer@gmail.com",
+			"homepage": "http://beerc.worldpress.com",
+			"role": "Creator, Developer"
+		}
+	],
+	"support": {
+		"email": "damo.clarky@gmail.com",
+	}
+}

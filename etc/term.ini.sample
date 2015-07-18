@@ -1,0 +1,22 @@
+; This ini file conforms to the following format
+; [strm] This is the strm (numeric term code) 2142 (20)(14)(Term2)
+; w1 is the date of Monday start of term (dd/m/yyyy)
+; census is census date (Date at which enrolments are finalised - Australia)
+; b1 is the monday at the start of break weeks.
+; Note, all variables (e.g. w1) are case sensitive and should be all lowercase
+
+[2141]
+w1 = 24/2/2014
+census = 18/3/2014
+b1 = 31/3/2014
+
+[2142]
+w1 = 30/6/2014
+census = 22/7/2014
+b1 = 4/8/2014
+
+[2143]
+w1 = 27/10/2014
+census = 18/11/2014
+b1 = 1/12/2014
+b2 = 29/12/2014 ; Two non-contiguous break weeks
