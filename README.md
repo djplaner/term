@@ -48,7 +48,7 @@ cd /var/www/lib
 git clone https://github.com/damoclark/term
 ```
 
-In the near future, it will be possible to install into your project using Composer (see [TODO](#TODO) section), use the following Composer command:
+In the near future, it will be possible to install into your project using Composer (see [TODO](#todo) section), use the following Composer command:
 
 ```bash
 cd /var/www/html/project
@@ -95,6 +95,7 @@ b2 = 29/12/2014
 After changing the term.ini file, the ```updateTermData.php``` script needs to be executed.  It will read the term.ini and create a serialized php data structure in the file etc/termData.serialized.  The file is read by the Term class when it is loaded, rather than parsing the term.ini each time.
 
 ```bash
+cd /var/www/lib/term
 php updateTermData.php
 ```
 
